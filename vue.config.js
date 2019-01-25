@@ -7,6 +7,7 @@ module.exports = {
                loader: require.resolve('./loaders/code.js')
              }
             ]
-        }
+        },
+        devtool: 'source-map'
     }
 }
